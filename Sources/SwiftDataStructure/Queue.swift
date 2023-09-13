@@ -6,6 +6,9 @@
 //
 
 public struct Queue<T> {
+    
+    public init() { }
+    
     private var array: [T] = []
     private var index: Int = 0
     
