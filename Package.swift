@@ -10,10 +10,6 @@ let package = Package(
         .library(
             name: "SwiftDataStructure",
             targets: ["SwiftDataStructure"]),
-        .library(
-            name: "Stack",
-            type: .static,
-            targets: ["Stack"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -25,10 +21,6 @@ let package = Package(
         .target(
             name: "SwiftDataStructure",
             dependencies: []),
-        
-        .target(
-            name: "Stack",
-            dependencies: []),            
         
         .testTarget(
             name: "SwiftDataStructureTests",
